@@ -8,7 +8,7 @@ export type ScanResult = {
 
 export async function findFiles(
   rootPath: string,
-  ignoredDirectories: string[],
+  ignoredDirectories: readonly string[],
 ): Promise<ScanResult> {
   const files: string[] = [];
   const warnings: string[] = [];
