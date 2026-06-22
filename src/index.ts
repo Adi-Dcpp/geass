@@ -10,7 +10,7 @@ const program = new Command();
 
 program
     .name("geass")
-    .description("A command-line tool for scanning files and directories.") 
+    .description("Security and code hygiene gate for Git repositories.") 
     .version("1.0.0");
 
 program
